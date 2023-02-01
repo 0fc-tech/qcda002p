@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "My Application"
+include ':app'
+include ':module2ihmsimple'
+include ':module2ihmavance'
+include ':mod2tp'
+include ':BalkanyGrzRiz'
+include ':moyenneDesNotes'
+include ':palindrome'
+include ':mod4findviewbyid'
+include ':mod4randomgenerator'
+include ':mod4databinding'
+include ':mod4tpvraifaux'
+include ':mod5nav'
