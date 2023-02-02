@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mod 5 Raconter Histoire</string>
+    <string name="hello_blank_fragment">Bonjour fragment blanc</string>
+    <string name="label_button_display_story">Afficher Histoire</string>
+    <string name="hint_place">Lieu</string>
+    <string name="hint_name">prénom</string>
+
+</resources>

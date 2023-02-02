@@ -1,16 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'androidx.navigation.safeargs'
-    id 'kotlin-parcelize'
 }
 
 android {
-    namespace 'com.example.mod5nav'
+    namespace 'com.example.mod5tpcolorme'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.mod5nav"
+        applicationId "com.example.mod5tpcolorme"
         minSdk 24
         targetSdk 33
         versionCode 1
