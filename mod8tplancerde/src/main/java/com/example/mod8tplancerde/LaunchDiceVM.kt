@@ -1,11 +1,12 @@
 package com.example.mod8tplancerde
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class LaunchDiceVM:ViewModel() {
-    var result = 0
+    var result = MutableLiveData(0)
 
     fun launch(valDiceMax : Int){
-        result = (1..valDiceMax).random()
+        result.value = (1..valDiceMax).random()
     }
 }
